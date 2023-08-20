@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Chatbubble from "./Chatbubble";
+import ChatBubble from "./ChatBubble";
 
 export default function MsgContainer() {
   const [messages, setMessages] = useState([]);
@@ -26,9 +26,9 @@ export default function MsgContainer() {
     <div className="flex flex-col h-screen bg-green-800">
       <div className="overflow-y-auto p-4 absolute bottom-10">
         {messages.map((message, index) => (
-          <Chatbubble key={index} text={message.text} type="history" />
+          <ChatBubble key={index} text={message.text} type="history" />
         ))}
-        <Chatbubble typingText={newMessage} type="typing" />
+        <ChatBubble typingText={newMessage} type="typing" />
       </div>
       <div className="flex">
         <form onSubmit={addMessage}>

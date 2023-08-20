@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Chatbubble(props) {
+export default function ChatBubble(props) {
   return (
     <div
       className={`flex justify-${
