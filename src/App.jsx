@@ -1,9 +1,9 @@
-import Msgcontainer from "./components/Msgcontainer";
+import Container from "./components/Container";
 
 function App() {
   return (
     <>
-      <Msgcontainer />
+      <Container />
     </>
   );
 }
