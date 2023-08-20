@@ -13,7 +13,7 @@ This is a customizable green screen chat bubble component that can be seamlessly
 
 # Usage
 
-- Visit the URL <a href="" target="_blank" />
+- Visit the URL <a href="https://chat-bubble-greenscreen.vercel.app/" target="_blank"> 📎Link </a>
 - ScreenRecord the site and start typing.
 - Use any video editor and remove the greenscreen and use as a element in your videos
 
