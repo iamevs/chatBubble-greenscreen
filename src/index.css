@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic layout */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f3f4f6;
+  padding: 20px;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.chat-bubble {
+  max-width: 70%;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.user-bubble {
+  background-color: #007bff;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.other-bubble {
+  background-color: #f0f0f0;
+  color: #000;
+  align-self: flex-start;
+}
+
+.input-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+/* Typing animation */
+.typing {
+  display: inline-block;
+  animation: typing 1s steps(5, end) infinite;
+}
+
+@keyframes typing {
+  from,
+  to {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
