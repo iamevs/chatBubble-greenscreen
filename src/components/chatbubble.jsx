@@ -10,7 +10,7 @@ export default function Chatbubble(props) {
       <div
         className={`p-2 ${
           props.type === "typing" ? "bg-gray-100" : "bg-gray-200"
-        } text-gray-800 max-w-xs rounded-t-lg rounded-br-lg`}
+        } text-gray-800 max-w-xs rounded-t-lg rounded-br-lg text-xl`}
       >
         {props.type === "typing" && props.typingText && (
           <span>{props.typingText}</span>

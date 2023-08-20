@@ -17,7 +17,7 @@ export default function MsgContainer() {
     if (messages.length > 0) {
       const timeoutId = setTimeout(() => {
         setMessages(messages.slice(1));
-      }, 3000);
+      }, 3500);
       return () => clearTimeout(timeoutId);
     }
   }, [messages]);

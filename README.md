@@ -1,8 +1,23 @@
-# React + Vite
+# Green Screen Chat Bubble Component for Video Editing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="./public/demo.png" alt="Green Screen Chat Bubble Demo" width="400">
+</p>
 
-Currently, two official plugins are available:
+This is a customizable green screen chat bubble component that can be seamlessly integrated into video editing projects. It was developed using React.js and styled with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Create realistic chat bubble overlays for video editing with green screen capability.
+- Perfect for adding chat conversations, tooltips, and more to your videos.
+
+# Usage
+
+- Visit the URL <a href="" target="_blank" />
+- ScreenRecord the site and start typing.
+- Use any video editor and remove the greenscreen and use as a element in your videos
+
+
+Inspired from @craftzdog. 
+
+Feel free to contribute, open issues, or submit pull requests to enhance this Green Screen Chat Bubble Component for video editing. Your contributions are greatly appreciated!
