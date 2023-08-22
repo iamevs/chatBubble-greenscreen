@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Chat from "./Chat";
+import ScreenRecorder from "./ScreenRecorder";
 
 function Container() {
   const [messages, setMessages] = useState([]);
@@ -24,6 +25,7 @@ function Container() {
 
   return (
     <div className="flex flex-col h-screen bg-green-800">
+      <ScreenRecorder />
       <div className="overflow-y-auto p-4 absolute bottom-10">
         {messages.map((message, index) => (
           <Chat key={index} text={message.text} type="history" />
